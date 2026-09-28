@@ -1,0 +1,13 @@
+[project]
+name = "avito-candidate-generation"
+version = "0.1.0"
+description = "Candidate retrieval for the Avito services benchmark"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "pyarrow>=16.0",
+    "scikit-learn>=1.5",
+    "tqdm>=4.66",
+]
+
